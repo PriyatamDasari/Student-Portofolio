@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff; /* Ensure all sections have a white background */
+}
+
+.project {
+    margin-bottom: 20px;
+}
+ img {
+    max-width: 150px; /* Adjust size as needed */
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #555;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px 0;
+    background: #fff; /* Set white background for contact section */
+    text-align: left;
+}
+
+#contact h2 {
+    margin: 0 0 20px;
+    text-align: left;
+
+}
+
+#contact-details {
+    max-width: 600px;
+    margin: left;
+    text-align: left;
+}
+
+#contact-details p {
+    margin: 0 0 10px;
+    text-align: left;
+
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Priyatam Dasari</h1>
+        <img src="C:\Users\PRIYATAM\OneDrive\Desktop\Passport Photo.jpg"alt="Description of Image">
+
+        <p>Currently studying in 3rd year, B.Tech</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Priyatam Dasari, and I am currently pursuing CSE major at SRM University, AP. I have a passion for website 
+        development and enjoy working on projects related to developing and bugging . In my free time, I like to workout and read books.</p>
+        <a href="assets/resume.pdf" download class="download-btn">Download Resume</a>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>SRM University, AP</strong> — B.Tech in Computer Science Engineering (CSE) <br> 2022 - Present</li>
+            <li><strong>Sri Chaitanya Junior College, Tirupati</strong> — Intermediate  <br> 2020 - 2022</li>
+            <li><strong>Spring Dale Public School, Tirupati</strong> — 10th Grade <br> 2019 - 2020</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One: Snake Game in Python</h3>
+            <p>
+                This classic Snake game, implemented using Python, brings the timeless arcade experience to your screen. Developed with the Pygame library, this project showcases fundamental programming concepts and game development skills.
+                
+                Features:
+                
+                Simple Gameplay: Control the snake using arrow keys to navigate the screen, eating food to grow longer while avoiding collisions with the walls and itself.
+                Dynamic Scoring: Track your score based on the number of food items consumed, with the challenge increasing as the snake grows.
+                Responsive Controls: Smooth and responsive controls for an engaging gameplay experience.
+                Visual Elements: Customizable graphics and colors enhance the visual appeal of the game, providing a fun and interactive experience.
+                Technical Details:
+                
+                Language: Python
+                Library: Pygame
+                Key Concepts: Game loops, collision detection, event handling, and graphical rendering.
+                This project not only demonstrates your ability to create a functional game but also highlights your proficiency in using Python for interactive applications.
+              </p>
+        </div>
+        <div class="project">
+            <h3>Project Two: Library Management System (LMS) in C++</h3>
+            <p>
+                Overview
+                The Library Management System (LMS) is a comprehensive solution designed to automate and manage various operations within a library. Implemented using C++, the system provides a robust and efficient way to handle the management of books, patrons, and transactions. The primary goal of the LMS is to streamline library operations, improve accessibility to library resources, and enhance the overall user experience.
+                
+                Key Features
+                Book Management
+                
+                Add New Books: Allows librarians to add new books to the system with details such as title, author, ISBN, and publication year.
+                Update Book Information: Enables updates to existing book records, including changes to book details or status.
+                Delete Books: Provides functionality to remove books that are no longer available or needed.
+                Search and Display Books: Facilitates searching for books by various criteria (e.g., title, author, ISBN) and displays search results in a user-friendly format.
+                Patron Management
+                
+                Add New Patrons: Registers new library patrons with personal details such as name, address, and contact information.
+                Update Patron Information: Allows updates to patron records, including contact details and membership status.
+                Delete Patrons: Provides functionality to remove patron records from the system when necessary.
+                Search and Display Patrons: Facilitates searching for patrons and displays their information as needed.
+                Transaction Management
+                
+                Issue Books: Manages the process of issuing books to patrons, including tracking due dates and overdue items.
+                Return Books: Handles the return of books, updates their availability status, and calculates any applicable late fees.
+                View Transaction History: Provides access to historical transaction data for both books and patrons.
+                User Interface
+                
+                Console-Based Interface: Offers a text-based interface for interaction with the system, making it accessible and easy to use for both librarians and patrons.
+                Menu-Driven Operations: Features a menu-driven approach for executing various functionalities, ensuring straightforward navigation and task execution.
+                Data Storage
+                
+                File-Based Storage: Utilizes file-based storage to persist book, patron, and transaction data, ensuring data is retained between system restarts.
+                Data Validation: Implements validation checks to ensure data integrity and consistency throughout the system.
+                Technical Details
+                Programming Language: C++
+                Data Structures: Utilizes standard C++ data structures such as arrays, vectors, and maps for efficient data management and retrieval.
+                Error Handling: Incorporates error handling mechanisms to manage exceptions and ensure system stability.
+                Modularity: Designed with a modular approach, allowing for easy maintenance and extension of functionalities.
+                Benefits
+                Efficiency: Automates routine tasks, reducing manual effort and minimizing errors.
+                Accessibility: Provides easy access to library resources and transaction history for both librarians and patrons.
+                Scalability: Can be extended with additional features or integrated with other systems as needed.
+                Conclusion
+                The Library Management System implemented in C++ demonstrates effective use of programming principles to create a functional and user-friendly application. It addresses key aspects of library management, offering a valuable tool for libraries to enhance their operations and service delivery.</p>
+        </div>
+        <div class="project">
+            <h3>Project Three: Contact Management System (CMS) Using SQL</h3>
+            <p>
+                Overview
+                The Contact Management System (CMS) is a robust solution designed to efficiently manage and organize contact information. Developed using SQL, the system facilitates the storage, retrieval, and manipulation of contact data, providing users with a streamlined approach to managing personal and professional contacts. The CMS is geared towards enhancing data accessibility, improving contact organization, and supporting efficient contact-related operations.
+                
+                Key Features
+                Contact Management
+                
+                Add New Contacts: Allows users to add new contact records with essential details such as name, phone number, email address, and address.
+                Update Contact Information: Enables users to modify existing contact records, including changes to contact details or personal information.
+                Delete Contacts: Provides functionality to remove outdated or unnecessary contact records from the system.
+                Search and Filter Contacts: Facilitates searching for contacts using various criteria (e.g., name, phone number) and applying filters to narrow down search results.
+                Data Storage and Retrieval
+                
+                Structured Data Storage: Utilizes SQL databases to store contact information in a structured manner, ensuring data integrity and efficient retrieval.
+                SQL Queries: Implements SQL queries for performing CRUD (Create, Read, Update, Delete) operations on contact records.
+                Data Relationships: Supports data relationships and normalization to maintain data consistency and avoid redundancy.
+                User Interface
+                
+                Command-Line Interface (CLI): Provides a CLI for interacting with the system, allowing users to perform contact management tasks through text-based commands.
+                Menu-Driven Operations: Features a menu-driven approach for executing various functionalities, simplifying navigation and task execution.
+                Data Security
+                
+                Access Control: Implements access control measures to ensure that only authorized users can modify or delete contact records.
+                Data Validation: Incorporates validation checks to ensure the accuracy and consistency of contact data.
+                Reporting and Exporting
+                
+                Generate Reports: Provides functionality to generate reports on contacts, such as contact lists or summary statistics.
+                Export Data: Allows users to export contact data to various formats (e.g., CSV) for use in other applications or for backup purposes.
+                Technical Details
+                Database Management System (DBMS): SQL-based DBMS (e.g., MySQL, PostgreSQL, SQLite)
+                SQL Operations: Utilizes SQL for database operations, including data insertion, querying, updating, and deletion.
+                Data Structures: Implements tables, indexes, and relationships to organize and manage contact data efficiently.
+                Error Handling: Includes error handling mechanisms to manage database exceptions and ensure system reliability.
+                Benefits
+                Efficiency: Automates contact management tasks, reducing manual effort and enhancing productivity.
+                Accessibility: Provides easy access to contact information and supports efficient data retrieval and manipulation.
+                Organization: Enhances contact organization through structured data storage and advanced querying capabilities.
+                Conclusion
+                The Contact Management System developed using SQL showcases effective use of database technology to create a functional and user-friendly application for managing contact information. It addresses critical aspects of contact management, offering a valuable tool for individuals and organizations to maintain and organize their contact records efficiently.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C, C++, Python, SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div id="contact-details">
+            <li><strong>Name:</strong> Priyatam Dasari</li>
+            <li><strong>Phone:</strong> +91 8074294987</li>
+            <li><strong>Email:</strong> dasaripriyatam@gmail.com</li>
+            <li><strong>Address:</strong> 6-8-1090, 115, Srinivasa Residency, NGO's Colony, Tirupati, Andhra Pradesh, India.</li>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Priyatam Dasari</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
